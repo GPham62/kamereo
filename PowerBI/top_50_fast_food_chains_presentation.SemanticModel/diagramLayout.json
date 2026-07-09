@@ -13,10 +13,10 @@
             "x": 0,
             "y": 0
           },
-          "nodeIndex": "Top 50 Fast-Food Chains In USA",
-          "nodeLineageTag": "b44b6c48-f2b6-46cb-a6d6-e447b1e80238",
+          "nodeIndex": "_Measures",
+          "nodeLineageTag": "1f623406-7912-4d7b-80ef-9a3550822cce",
           "size": {
-            "height": 248,
+            "height": 300,
             "width": 234
           },
           "zIndex": 0
@@ -24,12 +24,12 @@
         {
           "location": {
             "x": 284,
-            "y": 72
+            "y": 0
           },
-          "nodeIndex": "_Measures",
-          "nodeLineageTag": "1f623406-7912-4d7b-80ef-9a3550822cce",
+          "nodeIndex": "Top 50 Fast-Food Chains In USA",
+          "nodeLineageTag": "b44b6c48-f2b6-46cb-a6d6-e447b1e80238",
           "size": {
-            "height": 104,
+            "height": 300,
             "width": 234
           },
           "zIndex": 0
