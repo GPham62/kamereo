@@ -34,6 +34,13 @@ Page 3 — When does adding stores actually pay off?
 - **Subway is in the weak-and-expanding (dilution) quadrant** — assumes Subway *added* units 2020→2021. If it net-closed stores, it's not in the expanding half and the annotation (#5) fails.
 - **Median-split is the right quadrant boundary** (vs mean or a substantive threshold).
 
+## Build Addendum — 2026-07-10
+*Resolved during the PBIR build; supersedes the items below where noted.*
+- **Card values verified from the CSV and locked:** R² = 5.5%, earned-scale = 14, dilution = 10; medians = +24 net units / $1,510.5K AUV. Quadrant occupancy is non-trivial (14 / 10 / 11 / 15 clockwise from top-right). The "unverified placeholders" risk is closed.
+- **Subway assumption was false** — Subway net-closed 1,043 units (AUV $438K), so it sits in the retreating half, not the dilution quadrant. Decision #5 amended: the dilution-corner annotation names **Jersey Mike's** (+246 units, the dataset's fastest expander, below-median AUV $1,145K); Subway keeps a separate retreat annotation in the bottom-left.
+- **Segment color (deferred risk): dropped** for cleanliness — uniform grey dots, gold reserved for the Jersey Mike's callout.
+- **"Biggest expanders" card phrasing moot** — card 1 became the Independence (R²) number; the "6 of 10" placeholder was never used (actual would have been 3 of 10).
+
 ## Open Risks
 - **Card values are unverified placeholders** — "6 of 10 biggest expanders below-median AUV" and the two quadrant counts (N, M) must be **computed from the final dataset + locked median definitions before publishing.** `execute_dax` was blocked by a driver bug this session, so these may need manual/visual computation.
 - **"Biggest expanders" = absolute units-added is size-gameable** — the *count* on card 1 is honest, but the phrasing must not let a reader infer giants are "trying hardest."
