@@ -1,6 +1,6 @@
 # Fast-Food Chains 2021 — Descriptive Analysis
 
-*Companion analysis to the Power BI deck (sized for a 10–12 minute walkthrough). One question runs through every page: in fast food, do you win by scaling **fast**, or scaling **right**? The data: the 50 largest US fast-food chains, 2021 — about **$248 billion** in systemwide sales, with a **21-fold gap** between the strongest and weakest store. A one-year snapshot of revenue, not profit, so every claim here is comparative, never causal.*
+*Companion analysis to the Power BI deck. One question runs through every page: in fast food, do you win by scaling **fast**, or scaling **right**? The data: the 50 largest US fast-food chains, 2021 — about **$248 billion** in systemwide sales, with a **21-fold gap** between the strongest and weakest store. A one-year snapshot of revenue, not profit, so every claim here is comparative, never causal.*
 
 ---
 
@@ -57,3 +57,11 @@ The quadrants turn that statistic into head counts. Among the fast expanders, **
 Pizza 4P's illustrates the principle (illustration, not evidence from this dataset): years perfecting a single restaurant's economics before expanding deliberately, so each new opening multiplied an already-proven unit.
 
 **Bet on the operator who has earned the scale — not the one who is just adding stores.**
+
+## Personal Insights
+
+2021 was a stress-test year — a messy recovery mid-pandemic. It didn't create which chain won or lost; it exposed which chains had built a unit that could keep serving demand when the easy path closed. Drive-thru concepts rebounded; dine-in was still wounded.
+
+With a one-year snapshot I can't measure that amplification directly, but one trend is clearly visible: a store base already in decline kept declining — Subway's −1,043 US units traces back to 2016 and reached roughly −8,300 by 2025 ([Fortune, 2017](https://fortune.com/2017/04/21/subway-store-closings/); [QSR Magazine](https://www.qsrmagazine.com/story/subways-u-s-count-keeps-declining/)).
+
+For F&B chains in a market as rough as Vietnam's — where "booming" is the mean, not the median — the read is the same: under stress, a strong and adaptable unit survives, and a large store count does not. Bet on the unit and treat expansion as a multiplier — not a substitute.
