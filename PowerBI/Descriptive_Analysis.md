@@ -6,15 +6,17 @@
 
 ## Page 0 — Cover: the question
 
-Subway runs 21,147 stores — the biggest footprint in America. Chick-fil-A runs a fraction of that, yet each of its restaurants sells roughly **fourteen times** what a Subway does. And in 2021, one of these two companies closed over a thousand stores. It wasn't Chick-fil-A.
+The cover states the question — *do you win by scaling fast, or scaling right?* — and three numbers frame the stakes: **50 chains**, **$248 billion** in systemwide sales, and a **21× spread** in sales per unit.
 
-That gap is the whole analysis in miniature: the **segment** a chain competes in and the **strength of each store** decide who wins — store count is the by-product, not the cause.
+The third card is the one to dwell on. Fifty companies selling roughly the same thing — fast food — yet the best store outsells the worst by a factor of twenty-one. Something other than size is driving that gap, and finding it is the point of the deck.
 
 ---
 
 ## Page 1 — The Landscape: does size mean strength?
 
-The two rankings — biggest chains by total sales, strongest chains by sales per store — should be the same list if size created strength. **They barely overlap.** McDonald's towers over total sales and a handful of brands take most of the industry's revenue, but the per-store ranking is led by Chick-fil-A, Raising Cane's and In-N-Out: focused operators with far fewer, far stronger locations. The biggest footprint of all, Subway, sits near the bottom on what each store actually produces.
+The two rankings — biggest chains by total sales, strongest chains by sales per store — should be the same list if size created strength. **They barely overlap.** McDonald's towers over total sales and a handful of brands take most of the industry's revenue, but the per-store ranking is led by Chick-fil-A, Raising Cane's and In-N-Out: focused operators with far fewer, far stronger locations.
+
+The starkest contrast on the page: Subway runs 21,147 stores — the biggest footprint in America — yet sits near the bottom on what each store produces, while Chick-fil-A earns roughly **fourteen times** more per store on a fraction of the locations. (In 2021, one of these two closed over a thousand stores. It wasn't Chick-fil-A.)
 
 Being big is not the same as being good. Size is what you end up with, not what makes you win.
 
