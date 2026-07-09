@@ -1,77 +1,57 @@
-# Fast-Food Chains 2021 — Presenter Script
+# Fast-Food Chains 2021 — Descriptive Analysis
 
-*Talk track for the Power BI deck: ~1,050 words ≈ 10–12 minutes at a conversational pace, with room to point at charts. One question runs through every page: in fast food, do you win by scaling **fast**, or scaling **right**?*
-
----
-
-## Cover — the question (≈1.5 min)
-
-Open with the tension, not the agenda:
-
-> Subway runs 21,147 stores — the biggest footprint in America. Chick-fil-A runs a fraction of that, yet each of its restaurants sells roughly **fourteen times** what a Subway does. And in 2021, one of these two companies closed over a thousand stores. It wasn't Chick-fil-A.
-
-That's the puzzle this deck answers. The data: the 50 largest US fast-food chains, 2021, about **$248 billion** in systemwide sales, with a **21-fold gap** between the strongest and weakest store. My argument: the **segment** you compete in and the **strength of each store** decide who wins — store count is the by-product, not the cause.
-
-Two ground rules, stated up front so the audience trusts everything after: this is a one-year snapshot of **revenue, not profit**, so every claim is comparative — what moves together and what doesn't — never causal.
+*Companion analysis to the Power BI deck (sized for a 10–12 minute walkthrough). One question runs through every page: in fast food, do you win by scaling **fast**, or scaling **right**? The data: the 50 largest US fast-food chains, 2021 — about **$248 billion** in systemwide sales, with a **21-fold gap** between the strongest and weakest store. A one-year snapshot of revenue, not profit, so every claim here is comparative, never causal.*
 
 ---
 
-## Page 1 — The Landscape: does size mean strength? (≈2.5 min)
+## Page 0 — Cover: the question
 
-Put the two rankings side by side: the biggest chains by total sales, and the strongest chains by sales per store. If size created strength, they'd be the same list. **They barely overlap.**
+Subway runs 21,147 stores — the biggest footprint in America. Chick-fil-A runs a fraction of that, yet each of its restaurants sells roughly **fourteen times** what a Subway does. And in 2021, one of these two companies closed over a thousand stores. It wasn't Chick-fil-A.
 
-McDonald's towers over total sales, and a handful of brands take most of the industry's revenue — that's the concentration curve. But the per-store ranking is led by Chick-fil-A, Raising Cane's, In-N-Out — focused operators with far fewer, far stronger locations. And the biggest footprint of all, Subway, sits near the bottom on what each store actually produces.
-
-Landing line: **being big is not the same as being good.** Size is what you end up with, not what makes you win.
-
-*So-what for Kamereo: an account's value is each store's volume, not the number on the sign — per store, one Chick-fil-A is worth about fourteen Subways.*
+That gap is the whole analysis in miniature: the **segment** a chain competes in and the **strength of each store** decide who wins — store count is the by-product, not the cause.
 
 ---
 
-## Page 2 — Drivers: what makes a store strong? (≈3 min)
+## Page 1 — The Landscape: does size mean strength?
 
-Three moves on this page: a ceiling, two rule-outs, a verdict.
+The two rankings — biggest chains by total sales, strongest chains by sales per store — should be the same list if size created strength. **They barely overlap.** McDonald's towers over total sales and a handful of brands take most of the industry's revenue, but the per-store ranking is led by Chick-fil-A, Raising Cane's and In-N-Out: focused operators with far fewer, far stronger locations. The biggest footprint of all, Subway, sits near the bottom on what each store actually produces.
 
-**The ceiling is the segment.** Chicken stores average ~$2.6M per unit, burgers sit just behind, pizza trails at ~$1.0M. The category you compete in caps what a store can earn — a 2.6× advantage from top to bottom.
+Being big is not the same as being good. Size is what you end up with, not what makes you win.
 
-**Now rule out the obvious levers.** Plot per-store sales against store count: the cloud is flat — adding locations doesn't lift the stores you have. Franchise mix tells the same non-story: Chipotle earns $2.6M per store at zero percent franchised, while the strongest per-store performers sit at the fully-franchised end. Neither scale nor ownership model predicts strength.
-
-**The verdict is execution.** Within chicken alone, stores run from $1M to $6M — a wider spread than the entire chicken-to-pizza gap. The category sets the ceiling; execution decides where under it you land. **Perfect the unit, then earn the scale.**
-
-Handoff — say it exactly, it sets up the finale: *"But that's only half the question. Once a unit is strong — what does adding stores actually buy you?"*
-
-*So-what for Kamereo: qualify customers on operator execution — order size, reorder rate — not on the logo or the franchise count.*
+*For Kamereo: an account's value is each store's volume, not the number on the sign — per store, one Chick-fil-A is worth about fourteen Subways.*
 
 ---
 
-## Page 3 — When does adding stores pay off? (≈3 min)
+## Page 2 — Drivers: what makes a store strong?
 
-The hero scatter: every chain by net stores added 2020→21 against sales per store, with median lines crossing at **+24 stores** and **$1.5M per unit**.
+**The ceiling is the segment.** Chicken stores average ~$2.6M per unit, burgers sit just behind, pizza trails at ~$1.0M — a 2.6× category gap.
 
-Give them the number first: **R² = 5.5%.** Knowing how fast a chain is expanding tells you almost nothing about how good its stores are. The two are independent.
+**The obvious levers rule themselves out.** Per-store sales against store count is a flat cloud — adding locations doesn't lift the stores you have. Franchise mix tells the same non-story: Chipotle earns $2.6M per store at zero percent franchised, while the strongest per-store performers sit at the fully-franchised end.
 
-Then make it concrete with head counts. Among the fast expanders, **14** are multiplying strong stores — they've *earned* their scale — while **10** are multiplying weak ones — dilution. Nearly a coin flip.
+**What's left is execution.** Within chicken alone, stores run from $1M to $6M — a wider spread than the entire chicken-to-pizza gap. Category sets the ceiling; execution decides where under it you land. Perfect the unit, then earn the scale — which leaves one question open: once a unit is strong, what does adding stores actually buy?
 
-Now the twist the audience won't expect: the fastest expander in the entire dataset isn't McDonald's. It's **Jersey Mike's** — +246 stores in one year, with *below-median* sales per store. McDonald's added almost exactly as many (+244) at $3.4M per store. Chick-fil-A added +155 at $6.1M. Same expansion pace, opposite economics. And in the far corner sits Subway, unwinding −1,043 stores — what scale built on weak units eventually looks like.
-
-The principle, and the line the whole deck exists for: **growth doesn't create strength — it multiplies whatever you've already built.**
-
-One honest beat before moving on: this is one year of data, so it's a comparative finding — expansion and strength vary independently — not a causal or life-cycle claim. Saying so out loud buys credibility for the close.
-
-*So-what for Kamereo: a customer's expansion is a multiplier applied to the account they already are.*
+*For Kamereo: qualify customers on operator execution — order size, reorder rate — not on the logo or the franchise count.*
 
 ---
 
-## Close — the playbook (≈1.5 min)
+## Page 3 — Timing: when does adding stores pay off?
 
-Bring it back to the business in three lines:
+The quadrant scatter plots each chain's net stores added 2020→21 against sales per store, with median lines at **+24 stores** and **$1.5M per unit**. The relationship between the two: **R² = 5.5%.** Expansion pace tells you almost nothing about store strength — they are effectively independent.
 
-1. **Screen by segment** — it's the cheap first filter; some categories simply sell more per store.
+The quadrants turn that statistic into head counts. Among the fast expanders, **14** are multiplying strong stores — earned scale — while **10** are multiplying weak ones — dilution. Nearly a coin flip. The fastest expander in the entire dataset isn't McDonald's; it's **Jersey Mike's**, +246 stores in one year at *below-median* sales per store. McDonald's added almost exactly as many (+244) at $3.4M per store; Chick-fil-A added +155 at $6.1M. Same expansion pace, opposite economics. And in the far corner, Subway unwound −1,043 stores — what scale built on weak units eventually looks like.
+
+**Growth doesn't create strength — it multiplies whatever you've already built.** One year of data supports exactly that comparative claim, no more: it says expansion and strength vary independently, not when in a chain's life expansion pays.
+
+*For Kamereo: a customer's expansion is a multiplier applied to the account they already are.*
+
+---
+
+## The playbook
+
+1. **Screen by segment** — the cheap first filter; some categories simply sell more per store.
 2. **Qualify on the unit** — per-store volume and reorder strength are the real signal of an operator who executes.
 3. **Price expansion as a multiplier** — a strong-unit customer opening stores compounds into a major account; a weak-unit customer opening stores multiplies small orders and churn risk.
 
-If the audience wants a face for the principle, offer Pizza 4P's — *as an illustration, not as evidence from this dataset*: it spent years perfecting a single restaurant's economics before expanding deliberately, so every new opening multiplied an already-proven unit.
+Pizza 4P's illustrates the principle (illustration, not evidence from this dataset): years perfecting a single restaurant's economics before expanding deliberately, so each new opening multiplied an already-proven unit.
 
-Final line, verbatim:
-
-> **Bet on the operator who has earned the scale — not the one who is just adding stores.**
+**Bet on the operator who has earned the scale — not the one who is just adding stores.**
