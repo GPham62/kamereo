@@ -245,7 +245,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Average sales per unit, by segment (2021)'"
+                  "Value": "'Average sales per unit, by segment (2021) · right-click a bar → Drill through → Segment Detail'"
                 }
               }
             }
