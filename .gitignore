@@ -1,0 +1,15 @@
+# Claude Code local machine settings (permissions, paths — machine-specific)
+.claude/settings.local.json
+
+# OS junk
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Power BI / Office temp & lock files
+~$*
+*.tmp
+
+# Environment / secrets (safety net)
+.env
+*.env
