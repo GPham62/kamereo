@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.10.0/schema.json",
   "name": "23617d1da6746e85e808",
   "position": {
-    "x": 327.77969018932873,
-    "y": 293.08089500860586,
+    "x": 24,
+    "y": 293,
     "z": 0,
-    "height": 319.104991394148,
-    "width": 624.57831325301208,
+    "height": 344,
+    "width": 1232,
     "tabOrder": 0
   },
   "visual": {
@@ -98,43 +98,67 @@
       "categoryAxis": [
         {
           "properties": {
-            "logAxisScale": {
+            "start": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "-1100D"
+                }
+              }
+            },
+            "end": {
+              "expr": {
+                "Literal": {
+                  "Value": "300D"
                 }
               }
             },
             "titleText": {
               "expr": {
                 "Literal": {
-                  "Value": "'Total Units (2021)'"
+                  "Value": "'Net units added, 2020→2021'"
                 }
               }
             }
           }
         }
       ],
-      "y1AxisReferenceLine": [
+      "valueAxis": [
+        {
+          "properties": {
+            "start": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            },
+            "end": {
+              "expr": {
+                "Literal": {
+                  "Value": "6500D"
+                }
+              }
+            },
+            "titleText": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Avg sales per unit ($K)'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "legend": [
         {
           "properties": {
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "displayName": {
-              "expr": {
-                "Literal": {
-                  "Value": "'Y-Axis Constant Line 1'"
+                  "Value": "false"
                 }
               }
             }
-          },
-          "selector": {
-            "id": "1"
           }
         }
       ],
@@ -166,12 +190,12 @@
                             "Entity": "Top 50 Fast-Food Chains In USA"
                           }
                         },
-                        "Property": "Is Chicken"
+                        "Property": "Highlight Chain"
                       }
                     },
                     "Right": {
                       "Literal": {
-                        "Value": "'Chicken'"
+                        "Value": "'Jersey Mike''s'"
                       }
                     }
                   }
@@ -207,7 +231,7 @@
                             "Entity": "Top 50 Fast-Food Chains In USA"
                           }
                         },
-                        "Property": "Is Chicken"
+                        "Property": "Highlight Chain"
                       }
                     },
                     "Right": {
@@ -219,103 +243,6 @@
                 }
               }
             ]
-          }
-        },
-        {
-          "properties": {
-            "fill": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "'#D4A94E'"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "selector": {
-            "data": [
-              {
-                "scopeId": {
-                  "Comparison": {
-                    "ComparisonKind": 0,
-                    "Left": {
-                      "Column": {
-                        "Expression": {
-                          "SourceRef": {
-                            "Entity": "Top 50 Fast-Food Chains In USA"
-                          }
-                        },
-                        "Property": "Is Chicken"
-                      }
-                    },
-                    "Right": {
-                      "Literal": {
-                        "Value": "'Yes'"
-                      }
-                    }
-                  }
-                }
-              }
-            ]
-          }
-        },
-        {
-          "properties": {
-            "fill": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "'#6E7681'"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "selector": {
-            "data": [
-              {
-                "scopeId": {
-                  "Comparison": {
-                    "ComparisonKind": 0,
-                    "Left": {
-                      "Column": {
-                        "Expression": {
-                          "SourceRef": {
-                            "Entity": "Top 50 Fast-Food Chains In USA"
-                          }
-                        },
-                        "Property": "Is Chicken"
-                      }
-                    },
-                    "Right": {
-                      "Literal": {
-                        "Value": "'No'"
-                      }
-                    }
-                  }
-                }
-              }
-            ]
-          }
-        },
-        {
-          "properties": {
-            "fill": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "'#6E7681'"
-                    }
-                  }
-                }
-              }
-            }
           }
         }
       ],
@@ -332,14 +259,94 @@
             "displayName": {
               "expr": {
                 "Literal": {
-                  "Value": "'X-Axis Constant Line 1'"
+                  "Value": "'Median units added'"
                 }
               }
             },
             "value": {
               "expr": {
                 "Literal": {
-                  "Value": "5000D"
+                  "Value": "24D"
+                }
+              }
+            },
+            "lineColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#6E7681'"
+                    }
+                  }
+                }
+              }
+            },
+            "style": {
+              "expr": {
+                "Literal": {
+                  "Value": "'dashed'"
+                }
+              }
+            },
+            "transparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "30D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "id": "1"
+          }
+        }
+      ],
+      "y1AxisReferenceLine": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "displayName": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Median avg sales per unit'"
+                }
+              }
+            },
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "1510.5D"
+                }
+              }
+            },
+            "lineColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#6E7681'"
+                    }
+                  }
+                }
+              }
+            },
+            "style": {
+              "expr": {
+                "Literal": {
+                  "Value": "'dashed'"
+                }
+              }
+            },
+            "transparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "30D"
                 }
               }
             }
@@ -357,7 +364,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Do bigger chains still have room to grow?'"
+                  "Value": "'Do the fastest expanders run the strongest stores?'"
                 }
               }
             }
@@ -370,7 +377,14 @@
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "false"
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Each dot = one chain · dashed lines mark the medians: +24 net units added and $1.5M sales per unit'"
                 }
               }
             }

@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.10.0/schema.json",
+  "name": "a3f1b2c4d5e6f7a8b904",
+  "position": {
+    "x": 670,
+    "y": 543,
+    "z": 13000,
+    "height": 34,
+    "width": 340,
+    "tabOrder": 13000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Jersey Mike’s: fastest expander · below-median sales →",
+                    "textStyle": {
+                      "fontSize": "9pt",
+                      "color": "#D4A94E"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}
