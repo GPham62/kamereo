@@ -60,8 +60,8 @@ Pizza 4P's illustrates the principle (illustration, not evidence from this datas
 
 ## Personal Insights
 
-2021 was a stress-test year — a messy recovery mid-pandemic. It didn't create which chain won or lost; it exposed which chains had built a unit that could keep serving demand when the easy path closed. Drive-thru concepts rebounded; dine-in was still wounded.
+2021 was a stress-test year, or a messy recovery year mid-pandemic. It didn't determine which chain won and lost - it exposed which chains had built a unit that could keep serving demand when the easy path closed. Drive-thru concept rebounded, and dine-in were still wounded.
 
 With a one-year snapshot I can't measure that amplification directly, but one trend is clearly visible: a store base already in decline kept declining — Subway's −1,043 US units traces back to 2016 and reached roughly −8,300 by 2025 ([Fortune, 2017](https://fortune.com/2017/04/21/subway-store-closings/); [QSR Magazine](https://www.qsrmagazine.com/story/subways-u-s-count-keeps-declining/)).
 
-For F&B chains in a market as rough as Vietnam's — where "booming" is the mean, not the median — the read is the same: under stress, a strong and adaptable unit survives, and a large store count does not. Bet on the unit and treat expansion as a multiplier — not a substitute.
+For F&B chains, in a rough market like Vietnam, where "booming" is the mean not the median, to survive under stress, a strong and adaptable unit survives, and a large store count does not. Bet on the unit and treat expansion as a multiplier - not a substitute.
