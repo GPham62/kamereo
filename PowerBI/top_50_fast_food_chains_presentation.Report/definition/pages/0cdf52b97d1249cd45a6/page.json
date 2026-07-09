@@ -1,0 +1,20 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
+  "name": "0cdf52b97d1249cd45a6",
+  "displayName": "2.Business Drivers",
+  "displayOption": "FitToPage",
+  "height": 720,
+  "width": 1280,
+  "visualInteractions": [
+    {
+      "source": "8376c39818a9408516c9",
+      "target": "91a02332e145b225c61b",
+      "type": "DataFilter"
+    },
+    {
+      "source": "91a02332e145b225c61b",
+      "target": "8376c39818a9408516c9",
+      "type": "DataFilter"
+    }
+  ]
+}

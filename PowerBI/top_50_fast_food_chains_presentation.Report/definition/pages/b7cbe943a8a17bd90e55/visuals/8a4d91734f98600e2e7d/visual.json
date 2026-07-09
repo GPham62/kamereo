@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.10.0/schema.json",
+  "name": "8a4d91734f98600e2e7d",
+  "position": {
+    "x": 940.5851979345955,
+    "y": 226.78141135972461,
+    "z": 9000,
+    "height": 43.993115318416521,
+    "width": 324.68158347676422,
+    "tabOrder": 9000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "number of chains in the “high growth, lower productivity”",
+                    "textStyle": {
+                      "color": "#9aa0ab"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "right"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

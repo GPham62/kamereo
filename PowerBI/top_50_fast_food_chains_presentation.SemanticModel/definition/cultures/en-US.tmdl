@@ -1,0 +1,2356 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "top_50_fastfood_chain_in_USA": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Top 50 Fast-Food Chains In USA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "top 50 fast-food chain in USA": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "top 50 fast food chain in USA": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "USA": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "in USA": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "chain in USA": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "food chain in USA": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "fast food chain in USA": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "50 fast food chain in USA": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "chain": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "food chain": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "fast food chain": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "50 fast food chain": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "top 50 fast food chain": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "best 50 fast food chain": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "first 50 fast food chain": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "leading 50 fast food chain": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "maximum 50 fast food chain": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "peak 50 fast food chain": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "upper 50 fast food chain": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "fast food hawser in usa": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "top 50 fast food hawser": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "fast food restraint in usa": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "top 50 fast food restraint": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        }
+			      ]
+			    },
+			    "top_50_fastfood_chain_in_USA.fastfood_chain": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Top 50 Fast-Food Chains In USA",
+			          "ConceptualProperty": "Fast-Food Chains"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fast-food chain": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fast food chain": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "chain": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "food chain": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "fast-food hawser": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "fast-food restraint": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "fast food hawser": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "fast food restraint": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "food hawser": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "food restraint": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "fast-food cable": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "fast-food shackle": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "fast-food manacle": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "fast-food fetter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        }
+			      ]
+			    },
+			    "top_50_fastfood_chain_in_USA.U_S__systemwide_sales_millions__u_s_dollars": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Top 50 Fast-Food Chains In USA",
+			          "ConceptualProperty": "U.S. Systemwide Sales (Millions - U.S Dollars)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "U.S. systemwide sales (millions - u.s dollars)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "U.S. systemwide sale (million - u.s dollar)": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "U.S. systemwide sales": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "U.S. systemwide sales (millions u.s dollars)": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "U.S. systemwide sale (million u.s dollar)": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.7566
+			          }
+			        }
+			      ]
+			    },
+			    "top_50_fastfood_chain_in_USA.average_sale_per_unit_thousands__u_s_dollars": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Top 50 Fast-Food Chains In USA",
+			          "ConceptualProperty": "Average Sales per Unit (Thousands - U.S Dollars)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "average sale per unit (thousands - u.s dollars)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "average sale per unit (thousand - u.s dollar)": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "average sale per unit": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "average sale per unit (thousands u.s dollars)": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "average sale per unit (thousand u.s dollar)": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.7566
+			          }
+			        }
+			      ]
+			    },
+			    "top_50_fastfood_chain_in_USA.franchised_store": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Top 50 Fast-Food Chains In USA",
+			          "ConceptualProperty": "Franchised Stores"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "franchised store": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "store": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "franchised accumulation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "franchised collection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "accumulation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "collection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "franchised stock": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "franchised supply": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "franchised stockpile": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "franchised hoard": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "franchised mass": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "franchised pile": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "top_50_fastfood_chain_in_USA.company_store": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Top 50 Fast-Food Chains In USA",
+			          "ConceptualProperty": "Company Stores"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "company store": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "store": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "co store": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "corp store": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "corporation store": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "corps store": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "employer store": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "enterprise store": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "business store": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "group store": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "conglomerate store": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "company accumulation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        }
+			      ]
+			    },
+			    "top_50_fastfood_chain_in_USA.entity_2021_total_unit": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Top 50 Fast-Food Chains In USA",
+			          "ConceptualProperty": "2021 Total Units"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "2021 total unit": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "unit": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "total unit": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "2021 total module": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "2021 total element": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "2021 total entity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "total module": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "total element": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "total entity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "2021 total group": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "2021 total component": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "2021 total constituent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "2021 total item": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "top_50_fastfood_chain_in_USA.total_change_in_units_from_2020": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Top 50 Fast-Food Chains In USA",
+			          "ConceptualProperty": "Total Change in Units from 2020"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total change in units from 2020": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "total change in unit from 2020": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        }
+			      ]
+			    },
+			    "top_50_fastfood_chain_in_USA.segment": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Top 50 Fast-Food Chains In USA",
+			          "ConceptualProperty": "Segment"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "segment": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "division": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "subdivision": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "section": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "sector": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "bit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "fragment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "part": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "piece": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "portion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "slice": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "top_50_fastfood_chain_in_USA.franchise_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Top 50 Fast-Food Chains In USA",
+			          "ConceptualProperty": "Franchise %"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "franchise %": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "franchise percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "franchise pct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "top_50_fastfood_chain_in_USA.unit_growth_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Top 50 Fast-Food Chains In USA",
+			          "ConceptualProperty": "Unit Growth %"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "unit growth %": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "unit growth percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "unit growth pct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "module growth %": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "element growth %": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "entity growth %": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "group growth %": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "component growth %": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "constituent growth %": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "item growth %": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "part growth %": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "entity__measure": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "_measure": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "_ degree": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "_ quantity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "_ quota": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "_ extent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "_ amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "_ portion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "_ ration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "_ size": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "entity__measure.column_1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "Column1"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "column 1": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Column1": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "entity__measure.avg_sales_per_unit_USD": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "Avg Sales per Unit ($USD)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "avg sales per unit ($USD)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "avg sales per unit": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "entity__measure.chains_analyzed": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "Chains Analyzed"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "chains analyzed": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "manacle analyzed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "handcuff analyzed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "cuff analyzed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "shackle analyzed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "hawser analyzed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "restraint analyzed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "cable analyzed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "fetter analyzed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "series analyzed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.451
+			          }
+			        },
+			        {
+			          "succession analyzed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.451
+			          }
+			        }
+			      ]
+			    },
+			    "entity__measure.systemwide_sales_b": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "Systemwide Sales ($B)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "systemwide sales ($b)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "systemwide sales": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "entity__measure.sales_per_unit_spread": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "Sales per Unit Spread"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "sales per unit spread": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sale per unit spread": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "sale per module spread": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "sale per element spread": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "sale per entity spread": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "sale per group spread": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "sale per component spread": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "sale per constituent spread": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "sale per item spread": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "sale per part spread": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "sale per section spread": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "Sales/Unit Spread (x)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "entity__measure.cumulative_sales_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "Cumulative Sales %"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cumulative sales %": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cumulative sale percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "cumulative sale pct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "cumulative sale %": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "entity__measure.min_sales_per_unit": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "Min Sales per Unit"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "min sales per unit": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sales": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "min sales": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "min sale per unit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "min sale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "sale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "min sale per module": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "min sale per element": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "min sale per entity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "minimum sale per unit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "min sale per group": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "min sale per component": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "min sale per constituent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "entity__measure.max_sales_per_unit": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "Max Sales per Unit"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "max sales per unit": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sales": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "max sales": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "max sale per unit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "max sale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "sale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "max sale per module": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "max sale per element": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "max sale per entity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "maximum sale per unit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "max sale per group": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "max sale per component": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "max sale per constituent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "top_50_fastfood_chain_in_USA_has_entity__measure_cumulative_sales_": {
+			      "Binding": {
+			        "ConceptualEntity": "Top 50 Fast-Food Chains In USA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "top_50_fastfood_chain_in_USA": {
+			          "Target": {
+			            "Entity": "top_50_fastfood_chain_in_USA"
+			          }
+			        },
+			        "entity__measure.cumulative_sales_": {
+			          "Target": {
+			            "Entity": "entity__measure.cumulative_sales_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "top_50_fastfood_chain_in_USA"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.cumulative_sales_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "top_50_fastfood_chain_in_USA_have_cumulative_sales_"
+			        }
+			      ]
+			    },
+			    "top_50_fastfood_chain_in_USA_has_entity__measure_sales_per_unit_spread": {
+			      "Binding": {
+			        "ConceptualEntity": "Top 50 Fast-Food Chains In USA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "top_50_fastfood_chain_in_USA": {
+			          "Target": {
+			            "Entity": "top_50_fastfood_chain_in_USA"
+			          }
+			        },
+			        "entity__measure.sales_per_unit_spread": {
+			          "Target": {
+			            "Entity": "entity__measure.sales_per_unit_spread"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "top_50_fastfood_chain_in_USA"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.sales_per_unit_spread"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "top_50_fastfood_chain_in_USA_have_sales_per_unit_spread"
+			        }
+			      ]
+			    },
+			    "top_50_fastfood_chain_in_USA_has_entity__measure_systemwide_sales_b": {
+			      "Binding": {
+			        "ConceptualEntity": "Top 50 Fast-Food Chains In USA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "top_50_fastfood_chain_in_USA": {
+			          "Target": {
+			            "Entity": "top_50_fastfood_chain_in_USA"
+			          }
+			        },
+			        "entity__measure.systemwide_sales_b": {
+			          "Target": {
+			            "Entity": "entity__measure.systemwide_sales_b"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "top_50_fastfood_chain_in_USA"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.systemwide_sales_b"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "top_50_fastfood_chain_in_USA_have_systemwide_sales_b"
+			        }
+			      ]
+			    },
+			    "top_50_fastfood_chain_in_USA_has_entity__measure_chains_analyzed": {
+			      "Binding": {
+			        "ConceptualEntity": "Top 50 Fast-Food Chains In USA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "top_50_fastfood_chain_in_USA": {
+			          "Target": {
+			            "Entity": "top_50_fastfood_chain_in_USA"
+			          }
+			        },
+			        "entity__measure.chains_analyzed": {
+			          "Target": {
+			            "Entity": "entity__measure.chains_analyzed"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "top_50_fastfood_chain_in_USA"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.chains_analyzed"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "top_50_fastfood_chain_in_USA_have_chains_analyzed"
+			        }
+			      ]
+			    },
+			    "top_50_fastfood_chain_in_USA_has_entity__measure_avg_sales_per_unit_USD": {
+			      "Binding": {
+			        "ConceptualEntity": "Top 50 Fast-Food Chains In USA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "top_50_fastfood_chain_in_USA": {
+			          "Target": {
+			            "Entity": "top_50_fastfood_chain_in_USA"
+			          }
+			        },
+			        "entity__measure.avg_sales_per_unit_USD": {
+			          "Target": {
+			            "Entity": "entity__measure.avg_sales_per_unit_USD"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "top_50_fastfood_chain_in_USA"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.avg_sales_per_unit_USD"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "top_50_fastfood_chain_in_USA_have_avg_sales_per_unit_USD"
+			        }
+			      ]
+			    },
+			    "top_50_fastfood_chain_in_USA_has_unit_growth_": {
+			      "Binding": {
+			        "ConceptualEntity": "Top 50 Fast-Food Chains In USA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "top_50_fastfood_chain_in_USA": {
+			          "Target": {
+			            "Entity": "top_50_fastfood_chain_in_USA"
+			          }
+			        },
+			        "top_50_fastfood_chain_in_USA.unit_growth_": {
+			          "Target": {
+			            "Entity": "top_50_fastfood_chain_in_USA.unit_growth_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "top_50_fastfood_chain_in_USA"
+			            },
+			            "Object": {
+			              "Role": "top_50_fastfood_chain_in_USA.unit_growth_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "top_50_fastfood_chain_in_USA_have_unit_growth_"
+			        }
+			      ]
+			    },
+			    "top_50_fastfood_chain_in_USA_has_franchise_": {
+			      "Binding": {
+			        "ConceptualEntity": "Top 50 Fast-Food Chains In USA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "top_50_fastfood_chain_in_USA": {
+			          "Target": {
+			            "Entity": "top_50_fastfood_chain_in_USA"
+			          }
+			        },
+			        "top_50_fastfood_chain_in_USA.franchise_": {
+			          "Target": {
+			            "Entity": "top_50_fastfood_chain_in_USA.franchise_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "top_50_fastfood_chain_in_USA"
+			            },
+			            "Object": {
+			              "Role": "top_50_fastfood_chain_in_USA.franchise_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "top_50_fastfood_chain_in_USA_have_franchise_"
+			        }
+			      ]
+			    },
+			    "top_50_fastfood_chain_in_USA_has_segment": {
+			      "Binding": {
+			        "ConceptualEntity": "Top 50 Fast-Food Chains In USA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "top_50_fastfood_chain_in_USA": {
+			          "Target": {
+			            "Entity": "top_50_fastfood_chain_in_USA"
+			          }
+			        },
+			        "top_50_fastfood_chain_in_USA.segment": {
+			          "Target": {
+			            "Entity": "top_50_fastfood_chain_in_USA.segment"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "top_50_fastfood_chain_in_USA"
+			            },
+			            "Object": {
+			              "Role": "top_50_fastfood_chain_in_USA.segment"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "top_50_fastfood_chain_in_USA_have_segments"
+			        }
+			      ]
+			    },
+			    "top_50_fastfood_chain_in_USA_has_total_change_in_units_from_2020": {
+			      "Binding": {
+			        "ConceptualEntity": "Top 50 Fast-Food Chains In USA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "top_50_fastfood_chain_in_USA": {
+			          "Target": {
+			            "Entity": "top_50_fastfood_chain_in_USA"
+			          }
+			        },
+			        "top_50_fastfood_chain_in_USA.total_change_in_units_from_2020": {
+			          "Target": {
+			            "Entity": "top_50_fastfood_chain_in_USA.total_change_in_units_from_2020"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "top_50_fastfood_chain_in_USA"
+			            },
+			            "Object": {
+			              "Role": "top_50_fastfood_chain_in_USA.total_change_in_units_from_2020"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "top_50_fastfood_chain_in_USA_have_total_change_in_units_from_2020"
+			        }
+			      ]
+			    },
+			    "top_50_fastfood_chain_in_USA_has_entity_2021_total_unit": {
+			      "Binding": {
+			        "ConceptualEntity": "Top 50 Fast-Food Chains In USA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "top_50_fastfood_chain_in_USA": {
+			          "Target": {
+			            "Entity": "top_50_fastfood_chain_in_USA"
+			          }
+			        },
+			        "top_50_fastfood_chain_in_USA.entity_2021_total_unit": {
+			          "Target": {
+			            "Entity": "top_50_fastfood_chain_in_USA.entity_2021_total_unit"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "top_50_fastfood_chain_in_USA"
+			            },
+			            "Object": {
+			              "Role": "top_50_fastfood_chain_in_USA.entity_2021_total_unit"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "top_50_fastfood_chain_in_USA_have_2021_total_units"
+			        }
+			      ]
+			    },
+			    "top_50_fastfood_chain_in_USA_has_company_store": {
+			      "Binding": {
+			        "ConceptualEntity": "Top 50 Fast-Food Chains In USA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "top_50_fastfood_chain_in_USA": {
+			          "Target": {
+			            "Entity": "top_50_fastfood_chain_in_USA"
+			          }
+			        },
+			        "top_50_fastfood_chain_in_USA.company_store": {
+			          "Target": {
+			            "Entity": "top_50_fastfood_chain_in_USA.company_store"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "top_50_fastfood_chain_in_USA"
+			            },
+			            "Object": {
+			              "Role": "top_50_fastfood_chain_in_USA.company_store"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "top_50_fastfood_chain_in_USA_have_company_stores"
+			        }
+			      ]
+			    },
+			    "top_50_fastfood_chain_in_USA_has_franchised_store": {
+			      "Binding": {
+			        "ConceptualEntity": "Top 50 Fast-Food Chains In USA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "top_50_fastfood_chain_in_USA": {
+			          "Target": {
+			            "Entity": "top_50_fastfood_chain_in_USA"
+			          }
+			        },
+			        "top_50_fastfood_chain_in_USA.franchised_store": {
+			          "Target": {
+			            "Entity": "top_50_fastfood_chain_in_USA.franchised_store"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "top_50_fastfood_chain_in_USA"
+			            },
+			            "Object": {
+			              "Role": "top_50_fastfood_chain_in_USA.franchised_store"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "top_50_fastfood_chain_in_USA_have_franchised_stores"
+			        }
+			      ]
+			    },
+			    "top_50_fastfood_chain_in_USA_has_average_sale_per_unit_thousands__u_s_dollars": {
+			      "Binding": {
+			        "ConceptualEntity": "Top 50 Fast-Food Chains In USA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "top_50_fastfood_chain_in_USA": {
+			          "Target": {
+			            "Entity": "top_50_fastfood_chain_in_USA"
+			          }
+			        },
+			        "top_50_fastfood_chain_in_USA.average_sale_per_unit_thousands__u_s_dollars": {
+			          "Target": {
+			            "Entity": "top_50_fastfood_chain_in_USA.average_sale_per_unit_thousands__u_s_dollars"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "top_50_fastfood_chain_in_USA"
+			            },
+			            "Object": {
+			              "Role": "top_50_fastfood_chain_in_USA.average_sale_per_unit_thousands__u_s_dollars"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "top_50_fastfood_chain_in_USA_have_average_sale_per_unit_thousands__u_s_dollars"
+			        }
+			      ]
+			    },
+			    "top_50_fastfood_chain_in_USA_has_U_S__systemwide_sales_millions__u_s_dollars": {
+			      "Binding": {
+			        "ConceptualEntity": "Top 50 Fast-Food Chains In USA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "top_50_fastfood_chain_in_USA": {
+			          "Target": {
+			            "Entity": "top_50_fastfood_chain_in_USA"
+			          }
+			        },
+			        "top_50_fastfood_chain_in_USA.U_S__systemwide_sales_millions__u_s_dollars": {
+			          "Target": {
+			            "Entity": "top_50_fastfood_chain_in_USA.U_S__systemwide_sales_millions__u_s_dollars"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "top_50_fastfood_chain_in_USA"
+			            },
+			            "Object": {
+			              "Role": "top_50_fastfood_chain_in_USA.U_S__systemwide_sales_millions__u_s_dollars"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "top_50_fastfood_chain_in_USA_have_U_S__systemwide_sales_millions__u_s_dollars"
+			        }
+			      ]
+			    },
+			    "top_50_fastfood_chain_in_USA_has_fastfood_chain": {
+			      "Binding": {
+			        "ConceptualEntity": "Top 50 Fast-Food Chains In USA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "top_50_fastfood_chain_in_USA": {
+			          "Target": {
+			            "Entity": "top_50_fastfood_chain_in_USA"
+			          }
+			        },
+			        "top_50_fastfood_chain_in_USA.fastfood_chain": {
+			          "Target": {
+			            "Entity": "top_50_fastfood_chain_in_USA.fastfood_chain"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "top_50_fastfood_chain_in_USA"
+			            },
+			            "Object": {
+			              "Role": "top_50_fastfood_chain_in_USA.fastfood_chain"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "top_50_fastfood_chain_in_USA_have_fastfood_chains"
+			        }
+			      ]
+			    },
+			    "top_50_fastfood_chain_in_USA_has_entity__measure_min_sales_per_unit": {
+			      "Binding": {
+			        "ConceptualEntity": "Top 50 Fast-Food Chains In USA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "top_50_fastfood_chain_in_USA": {
+			          "Target": {
+			            "Entity": "top_50_fastfood_chain_in_USA"
+			          }
+			        },
+			        "entity__measure.min_sales_per_unit": {
+			          "Target": {
+			            "Entity": "entity__measure.min_sales_per_unit"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "top_50_fastfood_chain_in_USA"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.min_sales_per_unit"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "top_50_fastfood_chain_in_USA_have_min_sales_per_unit"
+			        }
+			      ]
+			    },
+			    "top_50_fastfood_chain_in_USA_has_entity__measure_max_sales_per_unit": {
+			      "Binding": {
+			        "ConceptualEntity": "Top 50 Fast-Food Chains In USA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "top_50_fastfood_chain_in_USA": {
+			          "Target": {
+			            "Entity": "top_50_fastfood_chain_in_USA"
+			          }
+			        },
+			        "entity__measure.max_sales_per_unit": {
+			          "Target": {
+			            "Entity": "entity__measure.max_sales_per_unit"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "top_50_fastfood_chain_in_USA"
+			            },
+			            "Object": {
+			              "Role": "entity__measure.max_sales_per_unit"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "top_50_fastfood_chain_in_USA_have_max_sales_per_unit"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

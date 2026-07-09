@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "top_50_fast_food_chains_presentation"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "a5dd3522-ab83-4f70-89ff-066e55f1b20f"
+  }
+}

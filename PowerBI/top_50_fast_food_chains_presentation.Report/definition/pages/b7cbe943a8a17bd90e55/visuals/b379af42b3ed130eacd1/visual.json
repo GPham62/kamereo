@@ -1,0 +1,36 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.10.0/schema.json",
+  "name": "b379af42b3ed130eacd1",
+  "position": {
+    "x": 12.392426850258175,
+    "y": 226.78141135972461,
+    "z": 7000,
+    "height": 43.993115318416521,
+    "width": 272.63339070567986,
+    "tabOrder": 7000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "how much of per-store sales you can predict from a chain's growth pace.",
+                    "textStyle": {
+                      "color": "#9aa0ab"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

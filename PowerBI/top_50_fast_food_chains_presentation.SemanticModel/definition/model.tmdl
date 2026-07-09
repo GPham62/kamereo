@@ -1,0 +1,19 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["Top 50 Fast-Food Chains In USA","_Measures"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table 'Top 50 Fast-Food Chains In USA'
+ref table _Measures
+
+ref cultureInfo en-US
+

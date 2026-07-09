@@ -10,6 +10,10 @@ Desktop.ini
 ~$*
 *.tmp
 
+# PBIP machine-local files (cache, user settings)
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
+
 # Environment / secrets (safety net)
 .env
 *.env

@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.10.0/schema.json",
+  "name": "83acd9bd3104234b9c93",
+  "position": {
+    "x": 488.2616179001721,
+    "y": 226.78141135972461,
+    "z": 8000,
+    "height": 43.993115318416521,
+    "width": 303.6144578313253,
+    "tabOrder": 8000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "number of chains that are above the overall median on both growth and per-store sales",
+                    "textStyle": {
+                      "color": "#9aa0ab"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "center"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

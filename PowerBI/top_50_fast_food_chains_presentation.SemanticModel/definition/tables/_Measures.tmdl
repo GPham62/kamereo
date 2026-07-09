@@ -1,0 +1,145 @@
+table _Measures
+	lineageTag: 1f623406-7912-4d7b-80ef-9a3550822cce
+
+	measure 'Avg Sales per Unit ($USD)' = ```
+			
+			  AVERAGE ( 'Top 50 Fast-Food Chains In USA'[Average Sales per Unit (Thousands - U.S Dollars)] )
+			```
+		lineageTag: d81a6366-e8fe-43ec-bce5-f46b5ea0073e
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Chains Analyzed' = DISTINCTCOUNT ( 'Top 50 Fast-Food Chains In USA'[Fast-Food Chains] )
+		formatString: 0
+		lineageTag: 41433518-f5ff-4809-8348-3af51404fd14
+
+	measure 'Systemwide Sales ($B)' = ```
+			
+			  DIVIDE (
+			      SUM ( 'Top 50 Fast-Food Chains In USA'[U.S. Systemwide Sales (Millions - U.S Dollars)] ),
+			      1000
+			  )
+			```
+		formatString: \$#,0;(\$#,0);\$#,0
+		lineageTag: 40a775a5-2706-4430-9371-9773cfd4bcf3
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	measure 'Sales per Unit Spread' = ```
+			
+			  DIVIDE (
+			      MAX ( 'Top 50 Fast-Food Chains In USA'[Average Sales per Unit (Thousands - U.S Dollars)] ),
+			      MIN ( 'Top 50 Fast-Food Chains In USA'[Average Sales per Unit (Thousands - U.S Dollars)] )
+			  )
+			```
+		formatString: 0
+		lineageTag: d54927ac-9468-4c42-9419-b3180bf8e22d
+
+	measure 'Cumulative Sales %' = ```
+			
+			  VAR ChainSales = SUM ( 'Top 50 Fast-Food Chains In USA'[U.S. Systemwide Sales (Millions - U.S Dollars)] )
+			  VAR Bigger =
+			      FILTER (
+			          ALLSELECTED ( 'Top 50 Fast-Food Chains In USA'[Fast-Food Chains] ),
+			          CALCULATE ( SUM ( 'Top 50 Fast-Food Chains In USA'[U.S. Systemwide Sales (Millions - U.S Dollars)] ) ) >= ChainSales
+			      )
+			  VAR CumSales = CALCULATE ( SUM ( 'Top 50 Fast-Food Chains In USA'[U.S. Systemwide Sales (Millions - U.S Dollars)] ), Bigger )
+			  VAR Total = CALCULATE ( SUM ( 'Top 50 Fast-Food Chains In USA'[U.S. Systemwide Sales (Millions - U.S Dollars)] ), ALLSELECTED ( 'Top 50 Fast-Food Chains In USA'[Fast-Food Chains] ) )
+			  RETURN DIVIDE ( CumSales, Total )
+			```
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 090cf77b-c5b5-4394-936f-909784625285
+
+	measure 'Min Sales per Unit' = MIN ( 'Top 50 Fast-Food Chains In USA'[Average Sales per Unit (Thousands - U.S Dollars)] )
+		formatString: 0
+		lineageTag: 9b4f6bd4-2640-4369-98f6-366e161c4f61
+
+	measure 'Max Sales per Unit' = MAX ( 'Top 50 Fast-Food Chains In USA'[Average Sales per Unit (Thousands - U.S Dollars)] )
+		formatString: 0
+		lineageTag: 8d3cb3b0-6611-4938-9d1e-2d218e518a16
+
+	/// Median net units added 2020 to 2021 across all 50 chains = 24. Used as the vertical quadrant line on Page 3.
+	measure 'Median Units Added' = ```
+			
+			  MEDIAN ( 'Top 50 Fast-Food Chains In USA'[Total Change in Units from 2020] )
+			```
+		formatString: 0
+		lineageTag: 5c6216fe-d807-403b-af1c-b18e50a98563
+
+	/// Count of chains that expanded faster than the median AND already had above-median per-store sales (earned-scale quadrant) = 14.
+	measure 'Earned Scale Count' = ```
+			
+			  VAR T = ALL ( 'Top 50 Fast-Food Chains In USA' )
+			  VAR mAUV = MEDIANX ( T, 'Top 50 Fast-Food Chains In USA'[Average Sales per Unit (Thousands - U.S Dollars)] )
+			  VAR mAdd = MEDIANX ( T, 'Top 50 Fast-Food Chains In USA'[Total Change in Units from 2020] )
+			  RETURN
+			      COUNTROWS (
+			          FILTER (
+			              T,
+			              'Top 50 Fast-Food Chains In USA'[Total Change in Units from 2020] > mAdd
+			                  && 'Top 50 Fast-Food Chains In USA'[Average Sales per Unit (Thousands - U.S Dollars)] > mAUV
+			          )
+			      )
+			```
+		formatString: 0
+		lineageTag: af44728b-db61-4850-9628-894990e2473d
+
+	/// Count of chains that expanded faster than the median but are still at or below median per-store sales (dilution quadrant) = 10.
+	measure 'Dilution Count' = ```
+			
+			  VAR T = ALL ( 'Top 50 Fast-Food Chains In USA' )
+			  VAR mAUV = MEDIANX ( T, 'Top 50 Fast-Food Chains In USA'[Average Sales per Unit (Thousands - U.S Dollars)] )
+			  VAR mAdd = MEDIANX ( T, 'Top 50 Fast-Food Chains In USA'[Total Change in Units from 2020] )
+			  RETURN
+			      COUNTROWS (
+			          FILTER (
+			              T,
+			              'Top 50 Fast-Food Chains In USA'[Total Change in Units from 2020] > mAdd
+			                  && 'Top 50 Fast-Food Chains In USA'[Average Sales per Unit (Thousands - U.S Dollars)] <= mAUV
+			          )
+			      )
+			```
+		formatString: 0
+		lineageTag: 54ff36ee-d33c-46b1-ab6e-c28d4c16a711
+
+	/// R-squared between units added and per-store sales across all 50 chains = ~5.5%. Only this share of unit-strength variation is explained by expansion pace, i.e. the two are essentially independent.
+	measure 'Independence (R2)' = ```
+			
+			  VAR T = ALL ( 'Top 50 Fast-Food Chains In USA' )
+			  VAR N = COUNTROWS ( T )
+			  VAR Sx = SUMX ( T, 'Top 50 Fast-Food Chains In USA'[Total Change in Units from 2020] )
+			  VAR Sy = SUMX ( T, 'Top 50 Fast-Food Chains In USA'[Average Sales per Unit (Thousands - U.S Dollars)] )
+			  VAR Sxy = SUMX ( T, 'Top 50 Fast-Food Chains In USA'[Total Change in Units from 2020] * 'Top 50 Fast-Food Chains In USA'[Average Sales per Unit (Thousands - U.S Dollars)] )
+			  VAR Sxx = SUMX ( T, 'Top 50 Fast-Food Chains In USA'[Total Change in Units from 2020] ^ 2 )
+			  VAR Syy = SUMX ( T, 'Top 50 Fast-Food Chains In USA'[Average Sales per Unit (Thousands - U.S Dollars)] ^ 2 )
+			  VAR num = N * Sxy - Sx * Sy
+			  VAR den = SQRT ( ( N * Sxx - Sx ^ 2 ) * ( N * Syy - Sy ^ 2 ) )
+			  VAR r = DIVIDE ( num, den )
+			  RETURN r * r
+			```
+		formatString: 0.0%
+		lineageTag: 89df74ef-caaa-4cd5-beed-2d0c323d68b2
+
+	column Column1
+		dataType: string
+		isHidden
+		lineageTag: 7a6060e3-27c1-404e-85ec-4a09e9e30366
+		summarizeBy: none
+		sourceColumn: Column1
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	partition _Measures = m
+		mode: import
+		source =
+				let
+				  Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i44FAA==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Column1 = _t])
+				in
+				  Source
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

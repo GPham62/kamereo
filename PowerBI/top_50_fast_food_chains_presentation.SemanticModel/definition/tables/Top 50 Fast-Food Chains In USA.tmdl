@@ -1,0 +1,173 @@
+table 'Top 50 Fast-Food Chains In USA'
+	lineageTag: b44b6c48-f2b6-46cb-a6d6-e447b1e80238
+
+	column 'Fast-Food Chains'
+		dataType: string
+		lineageTag: fd57a7a5-1372-4914-a4c5-a2b200ee1149
+		summarizeBy: none
+		sourceColumn: Fast-Food Chains
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'U.S. Systemwide Sales (Millions - U.S Dollars)'
+		dataType: int64
+		formatString: 0
+		lineageTag: 0173df85-229a-44e3-a9f4-bed3082dd232
+		summarizeBy: sum
+		sourceColumn: U.S. Systemwide Sales (Millions - U.S Dollars)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Average Sales per Unit (Thousands - U.S Dollars)'
+		dataType: int64
+		formatString: 0
+		lineageTag: 65ba9278-618a-4f73-a29e-44eafa69e3c2
+		summarizeBy: sum
+		sourceColumn: Average Sales per Unit (Thousands - U.S Dollars)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Franchised Stores'
+		dataType: int64
+		formatString: 0
+		lineageTag: 9c31685c-1ced-4b5c-9ab9-0b1643fb343b
+		summarizeBy: sum
+		sourceColumn: Franchised Stores
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Company Stores'
+		dataType: int64
+		formatString: 0
+		lineageTag: 230a3da7-0a9f-4e81-9ac7-a988b05cb227
+		summarizeBy: sum
+		sourceColumn: Company Stores
+
+		annotation SummarizationSetBy = Automatic
+
+	column '2021 Total Units'
+		dataType: int64
+		formatString: 0
+		lineageTag: c66a1817-03b3-41c9-bbb2-93bbcdbf6aa2
+		summarizeBy: sum
+		sourceColumn: 2021 Total Units
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Total Change in Units from 2020'
+		dataType: int64
+		formatString: 0
+		lineageTag: be169208-21c9-47c1-9ab4-cf9e6923c772
+		summarizeBy: sum
+		sourceColumn: Total Change in Units from 2020
+
+		annotation SummarizationSetBy = Automatic
+
+	column Segment = ```
+			
+			  SWITCH (
+			      'Top 50 Fast-Food Chains In USA'[Fast-Food Chains],
+			      "Arby’s", "Sandwich",
+			      "Baskin-Robbins", "Coffee & Snacks",
+			      "Bojangles", "Chicken",
+			      "Burger King", "Burger",
+			      "Carl’s Jr.", "Burger",
+			      "Checkers/Rally’s", "Burger",
+			      "Chick-fil-A", "Chicken",
+			      "Chipotle", "Mexican",
+			      "Church’s Chicken", "Chicken",
+			      "Culver’s", "Burger",
+			      "Dairy Queen", "Coffee & Snacks",
+			      "Del Taco", "Mexican",
+			      "Domino's", "Pizza",
+			      "Dunkin'", "Coffee & Snacks",
+			      "El Pollo Loco", "Chicken",
+			      "Firehouse Subs", "Sandwich",
+			      "Five Guys", "Burger",
+			      "Freddy’s Frozen Custard & Steakburgers", "Burger",
+			      "Hardee’s", "Burger",
+			      "In-N-Out Burger", "Burger",
+			      "Jack in the Box", "Burger",
+			      "Jersey Mike’s", "Sandwich",
+			      "Jimmy John’s", "Sandwich",
+			      "KFC", "Chicken",
+			      "Krispy Kreme", "Coffee & Snacks",
+			      "Little Caesars", "Pizza",
+			      "Marco’s Pizza", "Pizza",
+			      "McAlister’s Deli", "Sandwich",
+			      "McDonald’s", "Burger",
+			      "Moe’s Southwest Grill", "Mexican",
+			      "Panda Express", "Asian",
+			      "Panera Bread", "Sandwich",
+			      "Papa Johns", "Pizza",
+			      "Papa Murphy’s", "Pizza",
+			      "Pizza Hut", "Pizza",
+			      "Popeyes Louisiana Kitchen", "Chicken",
+			      "QDOBA", "Mexican",
+			      "Raising Cane’s", "Chicken",
+			      "Shake Shack", "Burger",
+			      "Sonic Drive-In", "Burger",
+			      "Starbucks", "Coffee & Snacks",
+			      "Subway", "Sandwich",
+			      "Taco Bell", "Mexican",
+			      "Tim Hortons", "Coffee & Snacks",
+			      "Tropical Smoothie Cafe", "Coffee & Snacks",
+			      "Wendy's", "Burger",
+			      "Whataburger", "Burger",
+			      "White Castle", "Burger",
+			      "Wingstop", "Chicken",
+			      "Zaxby’s", "Chicken",
+			      "Uncategorized"
+			  )
+			```
+		lineageTag: d6f4ebab-bf41-4ea0-9612-33ef514adb04
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Franchise %' = ```
+			
+			  DIVIDE (
+			      'Top 50 Fast-Food Chains In USA'[Franchised Stores],
+			      'Top 50 Fast-Food Chains In USA'[2021 Total Units]
+			  )
+			//share of stores that are franchised
+			
+			```
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 12d67314-32fc-4387-8473-b3a530c1c17f
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Unit Growth %' = ```
+			
+			VAR ChangeUnits = 'Top 50 Fast-Food Chains In USA'[Total Change in Units from 2020]
+			VAR BaseUnits   = 'Top 50 Fast-Food Chains In USA'[2021 Total Units] - ChangeUnits
+			RETURN
+			    DIVIDE ( ChangeUnits, BaseUnits ) 
+			// one-year growth over the 2020 base
+			```
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 581b432b-db82-4757-be74-fd5c06db775b
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Highlight Chain' = IF ( CONTAINSSTRING ( 'Top 50 Fast-Food Chains In USA'[Fast-Food Chains], "Jersey Mike" ), "Jersey Mike's", "Other" )
+		lineageTag: c31a839a-f918-4593-b849-427c6a75ff40
+
+	partition 'Top 50 Fast-Food Chains In USA' = m
+		mode: import
+		source =
+				let
+				  Source = Csv.Document(File.Contents("C:\Users\ADMIN\Desktop\Test Kamereo\PowerBI\Top 50 Fast-Food Chains In USA.csv"), [Delimiter = ",", Columns = 7, Encoding = 65001, QuoteStyle = QuoteStyle.None]),
+				  #"Promoted headers" = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				  #"Changed column type" = Table.TransformColumnTypes(#"Promoted headers", {{"Fast-Food Chains", type text}, {"U.S. Systemwide Sales (Millions - U.S Dollars)", Int64.Type}, {"Average Sales per Unit (Thousands - U.S Dollars)", Int64.Type}, {"Franchised Stores", Int64.Type}, {"Company Stores", Int64.Type}, {"2021 Total Units", Int64.Type}, {"Total Change in Units from 2020", Int64.Type}})
+				in
+				    #"Changed column type"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+
