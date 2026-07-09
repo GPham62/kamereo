@@ -1,5 +1,7 @@
 # Kamereo Interview Test
 
+Take-home test for a Data Analyst position at [Kamereo](https://kamereo.vn), a B2B food-supply platform in Vietnam. It covers three parts: written answers about Kamereo's business, a SQL query finding the best- and least-selling product categories, and a Power BI report with a descriptive analysis of the top 50 US fast-food chains.
+
 Three questions, three folders. The main deliverable sits at the top of each folder; supporting material lives in its `research/` subfolder.
 
 | Question | Main deliverable |
