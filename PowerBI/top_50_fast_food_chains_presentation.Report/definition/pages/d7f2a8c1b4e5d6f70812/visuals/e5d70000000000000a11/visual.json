@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.10.0/schema.json",
-  "name": "e5d70000000000000a05",
+  "name": "e5d70000000000000a11",
   "position": {
-    "x": 0,
-    "y": 44,
-    "z": 5000,
-    "height": 64,
-    "width": 1280,
-    "tabOrder": 4000
+    "x": 24,
+    "y": 112,
+    "z": 11000,
+    "height": 132,
+    "width": 284,
+    "tabOrder": 10000
   },
   "visual": {
     "visualType": "cardVisual",
@@ -25,15 +25,15 @@
                           "Entity": "Top 50 Fast-Food Chains In USA"
                         }
                       },
-                      "Property": "Segment"
+                      "Property": "2021 Total Units"
                     }
                   },
-                  "Function": 3
+                  "Function": 0
                 }
               },
-              "queryRef": "Min(Top 50 Fast-Food Chains In USA.Segment)",
-              "nativeQueryRef": "Min of Segment",
-              "displayName": "Segment"
+              "queryRef": "Sum(Top 50 Fast-Food Chains In USA.2021 Total Units)",
+              "nativeQueryRef": "Sum of 2021 Total Units",
+              "displayName": "Total stores"
             }
           ]
         }
@@ -53,25 +53,7 @@
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "28D"
-                }
-              }
-            },
-            "fontColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "'#D4A94E'"
-                    }
-                  }
-                }
-              }
-            },
-            "horizontalAlignment": {
-              "expr": {
-                "Literal": {
-                  "Value": "'center'"
+                  "Value": "30D"
                 }
               }
             }
@@ -84,10 +66,28 @@
       "label": [
         {
           "properties": {
-            "show": {
+            "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "false"
+                  "Value": "11D"
+                }
+              }
+            },
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#9AA0AB'"
+                    }
+                  }
                 }
               }
             }
@@ -103,28 +103,13 @@
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "false"
+                  "Value": "true"
                 }
               }
             }
           },
           "selector": {
             "id": "default"
-          }
-        }
-      ]
-    },
-    "visualContainerObjects": {
-      "background": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            }
           }
         }
       ]
